@@ -14,6 +14,7 @@ public class Caixa implements Runnable {
     @Override
     public void run() {
         try {
+
             while (!Thread.currentThread().isInterrupted()) {
                 Cliente cliente = fila.take();
                 cliente.setInicioAtendimento(System.currentTimeMillis());
