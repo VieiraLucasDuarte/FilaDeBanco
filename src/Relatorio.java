@@ -30,9 +30,9 @@ public class Relatorio {
         System.out.println("Tempo médio de espera: " + (somaTempoEspera / totalClientes / 1000.0) + " segundos");
 
         if ((somaTempoEspera / totalClientes) <= 120_000) {
-            System.out.println("✅ Objetivo alcançado: Espera média abaixo de 2 minutos.");
+            System.out.println("Objetivo alcançado: Espera média abaixo de 2 minutos.");
         } else {
-            System.out.println("❌ Objetivo NÃO alcançado: Espera média acima de 2 minutos.");
+            System.out.println("Objetivo não alcançado: Espera média acima de 2 minutos.");
         }
     }
 }

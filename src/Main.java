@@ -13,7 +13,8 @@ public class Main {
 
         //alterado para 2 minutos
         long duracaoSimulacao = 2 * 60 * 1000L;
-        ;
+
+        //long duracaoSimulacao = 2 * 60 * 60 * 1000L;
         long inicio = System.currentTimeMillis();
 
         while (System.currentTimeMillis() - inicio < duracaoSimulacao) {

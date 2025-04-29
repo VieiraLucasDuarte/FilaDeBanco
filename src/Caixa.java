@@ -7,8 +7,6 @@ public class Caixa implements Runnable {
     public Caixa(BlockingQueue<Cliente> fila, Relatorio relatorio) {
         this.fila = fila;
         this.relatorio = relatorio;
-
-
     }
 
     @Override
